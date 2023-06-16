@@ -147,6 +147,16 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         /// Retourne les suivis d'un document
         /// </summary>
         /// <returns>Liste d'objets Suivi</returns>
@@ -157,6 +167,13 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         /// Retourne les documents
         /// </summary>
         /// <param name="idDocument">id du document concerné</param>
@@ -168,10 +185,19 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         /// Retourne les commandes des documents
         /// </summary>
         /// <param name="idDocument">id du document concerné</param>
         /// <returns>Liste d'objets CommandeDocument</returns>
+<<<<<<< HEAD
         public List<CommandeDocument> GetCommandesDocument(string idDocument)
         {
             List<CommandeDocument> lesCommandesDocument = TraitementRecup<CommandeDocument>(GET, "commandedocument/" + idDocument);
@@ -190,6 +216,24 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+=======
+
+        public List<CommandeDocument> GetCommandesDocument(string idDocument)
+        {
+            List<CommandeDocument> lescommandesdocument = TraitementRecup<CommandeDocument>(GET, "commandedocument/" + idDocument);
+            return lescommandesdocument;
+        }
+
+        /// <summary>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 61ed9b479b64c8265dc881c79083c29c1e595b83
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         /// ecriture d'un exemplaire en base de données
         /// </summary>
         /// <param name="exemplaire">exemplaire à insérer</param>
@@ -360,6 +404,22 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c593cf004906a71bd47ceaf25665b7e3a14dc1d
+>>>>>>> 61ed9b479b64c8265dc881c79083c29c1e595b83
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         /// Ecriture d'un dvd en base de données
         /// </summary>
         /// <param name="Id"></param>
@@ -432,6 +492,19 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 61ed9b479b64c8265dc881c79083c29c1e595b83
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         /// Ecriture d'une revue en base de données
         /// </summary>
         /// <param name="Id"></param>
@@ -483,7 +556,19 @@ namespace MediaTekDocuments.dal
         /// Suppression d'une revue en base de données
         /// </summary>
         /// <param name="Id"></param>
+<<<<<<< HEAD
         /// <returns>True si la suppression a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la suppression a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la suppression a pu se faire</returns>
+=======
+        /// <returns></returns>
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         public bool SupprimerRevue(string Id)
         {
             String jsonIdRevue = "{ \"id\" : \"" + Id + "\"}";
@@ -502,6 +587,13 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         /// Ecriture d'une commande en base de données
         /// </summary>
         /// <param name="commande"></param>
@@ -596,6 +688,7 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
         /// Ecriture d'un abonnement à une revue en base de données
         /// </summary>
         /// <param name="id"></param>
@@ -643,6 +736,20 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 2c122a9b48f4f17c6238906aa0fbc9bd4dcd13bc
+>>>>>>> 6c593cf004906a71bd47ceaf25665b7e3a14dc1d
+>>>>>>> 61ed9b479b64c8265dc881c79083c29c1e595b83
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         /// Traitement de la récupération du retour de l'api, avec conversion du json en liste pour les select (GET)
         /// </summary>
         /// <typeparam name="T"></typeparam>

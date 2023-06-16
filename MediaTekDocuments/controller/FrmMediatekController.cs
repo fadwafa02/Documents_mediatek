@@ -1,7 +1,10 @@
 ﻿using System.Collections.Generic;
 using MediaTekDocuments.model;
 using MediaTekDocuments.dal;
+<<<<<<< HEAD
 using System;
+=======
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
 
 namespace MediaTekDocuments.controller
 {
@@ -77,6 +80,19 @@ namespace MediaTekDocuments.controller
             return access.GetAllPublics();
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 61ed9b479b64c8265dc881c79083c29c1e595b83
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         /// <summary>
         /// récupère les exemplaires d'une revue
         /// </summary>
@@ -88,6 +104,16 @@ namespace MediaTekDocuments.controller
         }
 
         /// <summary>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         /// getter sur les suivis
         /// </summary>
         /// <returns>Liste d'objets Suivi</returns>
@@ -100,13 +126,26 @@ namespace MediaTekDocuments.controller
         /// récupère les commandes d'un document
         /// </summary>
         /// <param name="idDocument"></param>
+<<<<<<< HEAD
         /// <returns>Liste d'objets CommandeDocument</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>Liste d'objets CommandeDocument</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>Liste d'objets CommandeDocument</returns>
+=======
+        /// <returns></returns>
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         public List<CommandeDocument> GetCommandesDocument(string idDocument)
         {
             return access.GetCommandesDocument(idDocument);
         }
 
         /// <summary>
+<<<<<<< HEAD
         /// récupère les abonnements d'une revue
         /// </summary>
         /// <param name="idDocument"></param>
@@ -117,6 +156,16 @@ namespace MediaTekDocuments.controller
         }
 
         /// <summary>
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 61ed9b479b64c8265dc881c79083c29c1e595b83
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         /// Crée un exemplaire d'une revue dans la bdd
         /// </summary>
         /// <param name="exemplaire">L'objet Exemplaire concerné</param>
@@ -135,7 +184,19 @@ namespace MediaTekDocuments.controller
         /// <param name="IdGenre"></param>
         /// <param name="IdPublic"></param>
         /// <param name="IdRayon"></param>
+<<<<<<< HEAD
         /// <returns>True si la création a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la création a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la création a pu se faire</returns>
+=======
+        /// <returns></returns>
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         public bool CreerDocument(string Id, string Titre, string Image, string IdRayon, string IdPublic, string IdGenre)
         {
             return access.CreerDocument(Id, Titre, Image, IdRayon, IdPublic, IdGenre);
@@ -150,7 +211,19 @@ namespace MediaTekDocuments.controller
         /// <param name="IdGenre"></param>
         /// <param name="IdPublic"></param>
         /// <param name="IdRayon"></param>
+<<<<<<< HEAD
         /// <returns>True si la modification a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la modification a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la modification a pu se faire</returns>
+=======
+        /// <returns></returns>
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         public bool ModifierDocument(string Id, string Titre, string Image, string IdGenre, string IdPublic, string IdRayon)
         {
             return access.ModifierDocument(Id, Titre, Image, IdGenre, IdPublic, IdRayon);
@@ -160,7 +233,19 @@ namespace MediaTekDocuments.controller
         /// Supprime un document dans la bdd
         /// </summary>
         /// <param name="Id"></param>
+<<<<<<< HEAD
         /// <returns>True si la suppression a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la suppression a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la suppression a pu se faire</returns>
+=======
+        /// <returns></returns>
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         public bool SupprimerDocument(string Id)
         {
             return access.SupprimerDocument(Id);
@@ -173,7 +258,19 @@ namespace MediaTekDocuments.controller
         /// <param name="Isbn"></param>
         /// <param name="Auteur"></param>
         /// <param name="Collection"></param>
+<<<<<<< HEAD
         /// <returns>True si la création a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la création a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la création a pu se faire</returns>
+=======
+        /// <returns></returns>
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         public bool CreerLivre(string Id, string Isbn, string Auteur, string Collection)
         {
             return access.CreerLivre(Id, Isbn, Auteur, Collection);
@@ -186,7 +283,19 @@ namespace MediaTekDocuments.controller
         /// <param name="Isbn"></param>
         /// <param name="Auteur"></param>
         /// <param name="Collection"></param>
+<<<<<<< HEAD
         /// <returns>True si la modification a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la modification a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la modification a pu se faire</returns>
+=======
+        /// <returns></returns>
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         public bool ModifierLivre(string Id, string Isbn, string Auteur, string Collection)
         {
             return access.ModifierLivre(Id, Isbn, Auteur, Collection);
@@ -196,12 +305,40 @@ namespace MediaTekDocuments.controller
         /// Suppression d'un livre en bdd
         /// </summary>
         /// <param name="Id"></param>
+<<<<<<< HEAD
         /// <returns>True si la suppression a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la suppression a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la suppression a pu se faire</returns>
+=======
+        /// <returns></returns>
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         public bool SupprimerLivre(string Id)
         {
             return access.SupprimerLivre(Id);
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c593cf004906a71bd47ceaf25665b7e3a14dc1d
+>>>>>>> 61ed9b479b64c8265dc881c79083c29c1e595b83
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         /// <summary>
         /// Créé un Dvd dans la bdd
         /// </summary>
@@ -209,7 +346,19 @@ namespace MediaTekDocuments.controller
         /// <param name="Synopsis"></param>
         /// <param name="Realisateur"></param>
         /// <param name="Duree"></param>
+<<<<<<< HEAD
         /// <returns>True si la création a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la création a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la création a pu se faire</returns>
+=======
+        /// <returns></returns>
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         public bool CreerDvd(string Id, string Synopsis, string Realisateur, int Duree)
         {
             return access.CreerDvd(Id, Synopsis, Realisateur, Duree);
@@ -222,7 +371,19 @@ namespace MediaTekDocuments.controller
         /// <param name="Synopsis"></param>
         /// <param name="Realisateur"></param>
         /// <param name="Duree"></param>
+<<<<<<< HEAD
         /// <returns>True si la modification a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la modification a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la modification a pu se faire</returns>
+=======
+        /// <returns></returns>
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         public bool ModifierDvd(string Id, string Synopsis, string Realisateur, int Duree)
         {
             return access.ModifierDvd(Id, Synopsis, Realisateur, Duree);
@@ -232,19 +393,56 @@ namespace MediaTekDocuments.controller
         /// Supprimme un dvd dans la bdd
         /// </summary>
         /// <param name="Id"></param>
+<<<<<<< HEAD
         /// <returns>True si la suppression a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la suppression a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la suppression a pu se faire</returns>
+=======
+        /// <returns></returns>
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         public bool SupprimerDvd(string Id)
         {
             return access.SupprimerDvd(Id);
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 61ed9b479b64c8265dc881c79083c29c1e595b83
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         /// <summary>
         /// Crée une revue dans la bdd
         /// </summary>
         /// <param name="Id"></param>
         /// <param name="Periodicite"></param>
         /// <param name="DelaiMiseADispo"></param>
+<<<<<<< HEAD
         /// <returns>True si la création a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la création a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la création a pu se faire</returns>
+=======
+        /// <returns></returns>
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         public bool CreerRevue(string Id, string Periodicite, int DelaiMiseADispo)
         {
             return access.CreerRevue(Id, Periodicite, DelaiMiseADispo);
@@ -256,7 +454,19 @@ namespace MediaTekDocuments.controller
         /// <param name="Id"></param>
         /// <param name="Periodicite"></param>
         /// <param name="DelaiMiseADispo"></param>
+<<<<<<< HEAD
         /// <returns>True si la modification a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la modification a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la modification a pu se faire</returns>
+=======
+        /// <returns></returns>
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         public bool ModifierRevue(string Id, string Periodicite, int DelaiMiseADispo)
         {
             return access.ModifierRevue(Id, Periodicite, DelaiMiseADispo);
@@ -266,12 +476,31 @@ namespace MediaTekDocuments.controller
         /// Supprime une revue dans la bdd
         /// </summary>
         /// <param name="Id"></param>
+<<<<<<< HEAD
         /// <returns>True si la suppression a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la suppression a pu se faire</returns>
+=======
+<<<<<<< HEAD
+        /// <returns>True si la suppression a pu se faire</returns>
+=======
+        /// <returns></returns>
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         public bool SupprimerRevue(string Id)
         {
             return access.SupprimerRevue(Id);
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         /// <summary>
         /// Créé une commande dans la bdd
         /// </summary>
@@ -311,13 +540,18 @@ namespace MediaTekDocuments.controller
         /// <summary>
         /// Supprimme une commande de livre dans la bdd
         /// </summary>
+<<<<<<< HEAD
         /// <param name="commandesDocument"></param>
+=======
+        /// <param name="commandesdocument"></param>
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
         /// <returns>True si la suppression a pu se faire</returns>
         public bool SupprimerCommandeDocument(CommandeDocument commandesDocument)
         {
             return access.SupprimerCommandeDocument(commandesDocument);
         }
 
+<<<<<<< HEAD
         /// <summary>
         /// Crée un abonnement de revue dans la bdd
         /// </summary>
@@ -340,5 +574,23 @@ namespace MediaTekDocuments.controller
             return access.SupprimerAbonnementRevue(abonnement);
         }
 
+=======
+
+<<<<<<< HEAD
+=======
+=======
+
+<<<<<<< HEAD
+=======
+=======
+
+
+=======
+>>>>>>> 2c122a9b48f4f17c6238906aa0fbc9bd4dcd13bc
+>>>>>>> 6c593cf004906a71bd47ceaf25665b7e3a14dc1d
+>>>>>>> 61ed9b479b64c8265dc881c79083c29c1e595b83
+>>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
+>>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
     }
 }
