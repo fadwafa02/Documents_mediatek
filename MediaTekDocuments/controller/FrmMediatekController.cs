@@ -173,6 +173,10 @@ namespace MediaTekDocuments.controller
             return access.SupprimerLivre(Id);
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c593cf004906a71bd47ceaf25665b7e3a14dc1d
         /// <summary>
         /// Créé un Dvd dans la bdd
         /// </summary>
@@ -209,6 +213,7 @@ namespace MediaTekDocuments.controller
             return access.SupprimerDvd(Id);
         }
 
+<<<<<<< HEAD
         /// <summary>
         /// Crée une revue dans la bdd
         /// </summary>
@@ -244,5 +249,11 @@ namespace MediaTekDocuments.controller
         }
 
 
+=======
+
+
+=======
+>>>>>>> 2c122a9b48f4f17c6238906aa0fbc9bd4dcd13bc
+>>>>>>> 6c593cf004906a71bd47ceaf25665b7e3a14dc1d
     }
 }

@@ -317,6 +317,10 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c593cf004906a71bd47ceaf25665b7e3a14dc1d
         /// Ecriture d'un dvd en base de données
         /// </summary>
         /// <param name="Id"></param>
@@ -389,6 +393,7 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+<<<<<<< HEAD
         /// Ecriture d'une revue en base de données
         /// </summary>
         /// <param name="Id"></param>
@@ -459,6 +464,10 @@ namespace MediaTekDocuments.dal
         }
 
         /// <summary>
+=======
+=======
+>>>>>>> 2c122a9b48f4f17c6238906aa0fbc9bd4dcd13bc
+>>>>>>> 6c593cf004906a71bd47ceaf25665b7e3a14dc1d
         /// Traitement de la récupération du retour de l'api, avec conversion du json en liste pour les select (GET)
         /// </summary>
         /// <typeparam name="T"></typeparam>
