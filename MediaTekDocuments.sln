@@ -5,8 +5,36 @@ VisualStudioVersion = 16.0.32413.511
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaTekDocuments", "MediaTekDocuments\MediaTekDocuments.csproj", "{75DE903D-6147-4E14-BBE0-FA20CD1F9840}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupprimerAbonnementRevueTest", "SupprimerAbonnementRevueTest\SupprimerAbonnementRevueTest.csproj", "{1DD2D56C-8B29-497D-AF22-0ECCA7B1E921}"
 EndProject
+=======
+<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupprimerAbonnementRevueTest", "SupprimerAbonnementRevueTest\SupprimerAbonnementRevueTest.csproj", "{1DD2D56C-8B29-497D-AF22-0ECCA7B1E921}"
+EndProject
+=======
+<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupprimerAbonnementRevueTest", "SupprimerAbonnementRevueTest\SupprimerAbonnementRevueTest.csproj", "{1DD2D56C-8B29-497D-AF22-0ECCA7B1E921}"
+EndProject
+=======
+<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupprimerAbonnementRevueTest", "SupprimerAbonnementRevueTest\SupprimerAbonnementRevueTest.csproj", "{1DD2D56C-8B29-497D-AF22-0ECCA7B1E921}"
+EndProject
+=======
+<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupprimerAbonnementRevueTest", "SupprimerAbonnementRevueTest\SupprimerAbonnementRevueTest.csproj", "{1DD2D56C-8B29-497D-AF22-0ECCA7B1E921}"
+EndProject
+=======
+<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupprimerAbonnementRevueTest", "SupprimerAbonnementRevueTest\SupprimerAbonnementRevueTest.csproj", "{1DD2D56C-8B29-497D-AF22-0ECCA7B1E921}"
+EndProject
+=======
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
+>>>>>>> 45c553f82683c805d021b7f1c78fb3ebaa7979a7
+>>>>>>> 68b5eb50f6ce5e8b6b28fd6ad12515fed3313fc3
+>>>>>>> 667bfb7329a602575225277290e0b0f421d31175
+>>>>>>> 92022dd655b811bce0b9f8f1e59544695ace3576
+>>>>>>> 25a70395273bdc79e049972056a285cdb4fedb8d
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +45,43 @@ Global
 		{75DE903D-6147-4E14-BBE0-FA20CD1F9840}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75DE903D-6147-4E14-BBE0-FA20CD1F9840}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75DE903D-6147-4E14-BBE0-FA20CD1F9840}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 45c553f82683c805d021b7f1c78fb3ebaa7979a7
+>>>>>>> 68b5eb50f6ce5e8b6b28fd6ad12515fed3313fc3
+>>>>>>> 667bfb7329a602575225277290e0b0f421d31175
+>>>>>>> 92022dd655b811bce0b9f8f1e59544695ace3576
+>>>>>>> 25a70395273bdc79e049972056a285cdb4fedb8d
 		{1DD2D56C-8B29-497D-AF22-0ECCA7B1E921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1DD2D56C-8B29-497D-AF22-0ECCA7B1E921}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DD2D56C-8B29-497D-AF22-0ECCA7B1E921}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DD2D56C-8B29-497D-AF22-0ECCA7B1E921}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
+>>>>>>> 45c553f82683c805d021b7f1c78fb3ebaa7979a7
+>>>>>>> 68b5eb50f6ce5e8b6b28fd6ad12515fed3313fc3
+>>>>>>> 667bfb7329a602575225277290e0b0f421d31175
+>>>>>>> 92022dd655b811bce0b9f8f1e59544695ace3576
+>>>>>>> 25a70395273bdc79e049972056a285cdb4fedb8d
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
