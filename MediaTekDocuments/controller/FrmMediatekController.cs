@@ -76,6 +76,10 @@ namespace MediaTekDocuments.controller
             return access.GetAllPublics();
         }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 61ed9b479b64c8265dc881c79083c29c1e595b83
         /// <summary>
         /// récupère les exemplaires d'une revue
         /// </summary>
@@ -87,6 +91,7 @@ namespace MediaTekDocuments.controller
         }
 
         /// <summary>
+<<<<<<< HEAD
         /// getter sur les suivis
         /// </summary>
         /// <returns>Liste d'objets Suivi</returns>
@@ -106,6 +111,8 @@ namespace MediaTekDocuments.controller
         }
 
         /// <summary>
+=======
+>>>>>>> 61ed9b479b64c8265dc881c79083c29c1e595b83
         /// Crée un exemplaire d'une revue dans la bdd
         /// </summary>
         /// <param name="exemplaire">L'objet Exemplaire concerné</param>
@@ -191,6 +198,13 @@ namespace MediaTekDocuments.controller
             return access.SupprimerLivre(Id);
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c593cf004906a71bd47ceaf25665b7e3a14dc1d
+>>>>>>> 61ed9b479b64c8265dc881c79083c29c1e595b83
         /// <summary>
         /// Créé un Dvd dans la bdd
         /// </summary>
@@ -227,6 +241,10 @@ namespace MediaTekDocuments.controller
             return access.SupprimerDvd(Id);
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 61ed9b479b64c8265dc881c79083c29c1e595b83
         /// <summary>
         /// Crée une revue dans la bdd
         /// </summary>
@@ -262,5 +280,14 @@ namespace MediaTekDocuments.controller
         }
 
 
+<<<<<<< HEAD
+=======
+=======
+
+
+=======
+>>>>>>> 2c122a9b48f4f17c6238906aa0fbc9bd4dcd13bc
+>>>>>>> 6c593cf004906a71bd47ceaf25665b7e3a14dc1d
+>>>>>>> 61ed9b479b64c8265dc881c79083c29c1e595b83
     }
 }
