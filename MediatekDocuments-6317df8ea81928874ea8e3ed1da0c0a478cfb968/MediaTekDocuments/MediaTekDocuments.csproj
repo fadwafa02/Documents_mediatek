@@ -66,61 +66,6 @@
     <Compile Include="manager\ApiRest.cs" />
     <Compile Include="controller\FrmMediatekController.cs" />
     <Compile Include="dal\Access.cs" />
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 45c553f82683c805d021b7f1c78fb3ebaa7979a7
->>>>>>> 68b5eb50f6ce5e8b6b28fd6ad12515fed3313fc3
->>>>>>> 667bfb7329a602575225277290e0b0f421d31175
-    <Compile Include="model\Abonnement.cs" />
-    <Compile Include="model\Commande.cs" />
-    <Compile Include="model\CommandeDocument.cs" />
-    <Compile Include="model\Suivi.cs" />
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 68b5eb50f6ce5e8b6b28fd6ad12515fed3313fc3
->>>>>>> 667bfb7329a602575225277290e0b0f421d31175
-    <Compile Include="view\FrmAlerteFinAbonnement.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="view\FrmAlerteFinAbonnement.Designer.cs">
-      <DependentUpon>FrmAlerteFinAbonnement.cs</DependentUpon>
-    </Compile>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
-<<<<<<< HEAD
-    <Compile Include="model\Commande.cs" />
-    <Compile Include="model\CommandeDocument.cs" />
-    <Compile Include="model\Suivi.cs" />
-=======
-<<<<<<< HEAD
-    <Compile Include="model\Commande.cs" />
-    <Compile Include="model\CommandeDocument.cs" />
-    <Compile Include="model\Suivi.cs" />
-=======
-<<<<<<< HEAD
-    <Compile Include="model\Commande.cs" />
-    <Compile Include="model\CommandeDocument.cs" />
-    <Compile Include="model\Suivi.cs" />
-=======
->>>>>>> 61ed9b479b64c8265dc881c79083c29c1e595b83
->>>>>>> e78cf01a8defeab371de522e8c98d8d68bda933c
->>>>>>> 1588d5cd69a237fbf9942989284d728a9a5d834b
->>>>>>> 4a0109a5b714795a4c7706f0e31ca2930a861f0e
->>>>>>> 45c553f82683c805d021b7f1c78fb3ebaa7979a7
->>>>>>> 68b5eb50f6ce5e8b6b28fd6ad12515fed3313fc3
->>>>>>> 667bfb7329a602575225277290e0b0f421d31175
     <Compile Include="view\FrmMediatek.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -149,24 +94,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-    <EmbeddedResource Include="view\FrmAlerteFinAbonnement.resx">
-      <DependentUpon>FrmAlerteFinAbonnement.cs</DependentUpon>
-    </EmbeddedResource>
-=======
-<<<<<<< HEAD
-    <EmbeddedResource Include="view\FrmAlerteFinAbonnement.resx">
-      <DependentUpon>FrmAlerteFinAbonnement.cs</DependentUpon>
-    </EmbeddedResource>
-=======
-<<<<<<< HEAD
-    <EmbeddedResource Include="view\FrmAlerteFinAbonnement.resx">
-      <DependentUpon>FrmAlerteFinAbonnement.cs</DependentUpon>
-    </EmbeddedResource>
-=======
->>>>>>> 45c553f82683c805d021b7f1c78fb3ebaa7979a7
->>>>>>> 68b5eb50f6ce5e8b6b28fd6ad12515fed3313fc3
->>>>>>> 667bfb7329a602575225277290e0b0f421d31175
     <EmbeddedResource Include="view\FrmMediatek.resx">
       <DependentUpon>FrmMediatek.cs</DependentUpon>
     </EmbeddedResource>
