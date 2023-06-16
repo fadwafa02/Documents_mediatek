@@ -24,7 +24,7 @@ namespace MediaTekDocuments.dal
         /// </summary>
         private static readonly string connectionName = "MediaTekDocuments.Properties.Settings.mediatek86ConnectionString";
 =======
-        private static readonly string uriApi = "https://voyages-dhaussy.com/";
+        private static readonly string uriApi = "https://fadwa-api-documents.online/";
 >>>>>>> 25a70395273bdc79e049972056a285cdb4fedb8d
         /// <summary>
         /// instance unique de la classe
