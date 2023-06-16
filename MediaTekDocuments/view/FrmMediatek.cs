@@ -161,9 +161,15 @@ namespace MediaTekDocuments.view
             txbLivresGenre.Text = livre.Genre;
             txbLivresPublic.Text = livre.Public;
             txbLivresRayon.Text = livre.Rayon;
+<<<<<<< HEAD
             txbIdGenreLivre.Text = livre.IdGenre;
             txbIdPublicLivre.Text = livre.IdPublic;
             txbIdRayonLivre.Text = livre.IdRayon;
+=======
+            txtIdGenreLivre.Text = livre.IdGenre;
+            txtIdPublicLivre.Text = livre.IdPublic;
+            txtIdRayonLivre.Text = livre.IdRayon;
+>>>>>>> 2c122a9b48f4f17c6238906aa0fbc9bd4dcd13bc
             string image = livre.Image;
             try
             {
@@ -189,9 +195,15 @@ namespace MediaTekDocuments.view
             txbLivresPublic.Text = "";
             txbLivresRayon.Text = "";
             txbLivresTitre.Text = "";
+<<<<<<< HEAD
             txbIdGenreLivre.Text = "";
             txbIdPublicLivre.Text = "";
             txbIdRayonLivre.Text = "";
+=======
+            txtIdGenreLivre.Text = "";
+            txtIdPublicLivre.Text = "";
+            txtIdRayonLivre.Text = "";
+>>>>>>> 2c122a9b48f4f17c6238906aa0fbc9bd4dcd13bc
             pcbLivresImage.Image = null;
         }
 
@@ -391,6 +403,7 @@ namespace MediaTekDocuments.view
                     string isbn = txbLivresIsbn.Text;
                     string auteur = txbLivresAuteur.Text;
                     string collection = txbLivresCollection.Text;
+<<<<<<< HEAD
                     string idGenre = txbIdGenreLivre.Text;
                     string genre = txbLivresGenre.Text;
                     string idPublic = txbIdPublicLivre.Text;
@@ -398,6 +411,16 @@ namespace MediaTekDocuments.view
                     string idRayon = txbIdRayonLivre.Text;
                     string rayon = txbLivresRayon.Text;
 
+=======
+                    string idGenre = txtIdGenreLivre.Text;
+                    string genre = txbLivresGenre.Text;
+                    string idPublic = txtIdPublicLivre.Text;
+                    string Public = txbLivresPublic.Text;
+                    string idRayon = txtIdRayonLivre.Text;
+                    string rayon = txbLivresRayon.Text;
+
+
+>>>>>>> 2c122a9b48f4f17c6238906aa0fbc9bd4dcd13bc
                     Document document = new Document(id, titre, image, idGenre, genre, idPublic, Public, idRayon, rayon);
                     Livre livre = new Livre(id, titre, image, isbn, auteur, collection, idGenre, genre, idPublic, Public, idRayon, rayon);
                     if (controller.CreerDocument(document.Id, document.Titre, document.Image, document.IdRayon, document.IdPublic, document.IdGenre) && controller.CreerLivre(livre.Id, livre.Isbn, livre.Auteur, livre.Collection))
@@ -421,7 +444,11 @@ namespace MediaTekDocuments.view
             }
             else
             {
+<<<<<<< HEAD
                 MessageBox.Show("Le numéro de document est obligatoire.", "Information");
+=======
+                MessageBox.Show("Le champ : numéro de document est obligatoire.", "Information");
+>>>>>>> 2c122a9b48f4f17c6238906aa0fbc9bd4dcd13bc
             }
         }
         /// <summary>
@@ -433,14 +460,21 @@ namespace MediaTekDocuments.view
         {
             if (dgvLivresListe.SelectedRows.Count > 0)
             {
+<<<<<<< HEAD
                 Livre selectedLivre = (Livre)dgvLivresListe.SelectedRows[0].DataBoundItem;
 
+=======
+                // Récupération de l'objet Livre sélectionné dans la DataGridView
+                Livre selectedLivre = (Livre)dgvLivresListe.SelectedRows[0].DataBoundItem;
+                // Récupération des nouvelles informations saisies
+>>>>>>> 2c122a9b48f4f17c6238906aa0fbc9bd4dcd13bc
                 string id = selectedLivre.Id;
                 string titre = txbLivresTitre.Text;
                 string image = txbLivresImage.Text;
                 string isbn = txbLivresIsbn.Text;
                 string auteur = txbLivresAuteur.Text;
                 string collection = txbLivresCollection.Text;
+<<<<<<< HEAD
                 string idGenre = txbIdGenreLivre.Text;
                 string idPublic = txbIdPublicLivre.Text;
                 string idRayon = txbIdRayonLivre.Text;
@@ -448,6 +482,17 @@ namespace MediaTekDocuments.view
                 {
                     if (controller.ModifierLivre(id, isbn, auteur, collection) && controller.ModifierDocument(id, titre, image, idGenre, idPublic, idRayon))
                     {
+=======
+                string idGenre = txtIdGenreLivre.Text;
+                string idPublic = txtIdPublicLivre.Text;
+                string idRayon = txtIdRayonLivre.Text;
+                if (!txbLivresNumero.Equals("") && !txbLivresTitre.Equals("") && !txtIdGenreLivre.Equals("") && !txtIdPublicLivre.Equals("") && !txtIdRayonLivre.Equals(""))
+                {
+                    // Récupération des fonctions de modification du livre et du document associé
+                    if (controller.ModifierLivre(id, isbn, auteur, collection) && controller.ModifierDocument(id, titre, image, idGenre, idPublic, idRayon))
+                    {
+                        // Mise à jour de la DataGridView avec les nouvelles informations
+>>>>>>> 2c122a9b48f4f17c6238906aa0fbc9bd4dcd13bc
                         lesLivres = controller.GetAllLivres();
                         RemplirComboCategorie(controller.GetAllGenres(), bdgGenres, cbxLivresGenres);
                         RemplirComboCategorie(controller.GetAllPublics(), bdgPublics, cbxLivresPublics);
@@ -462,12 +507,20 @@ namespace MediaTekDocuments.view
                 }
                 else
                 {
+<<<<<<< HEAD
                     MessageBox.Show("Veuillez sélectionner un livre à modifier", "Information");
+=======
+                    MessageBox.Show("Veuillez sélectionner un LIVRE à modifier", "Information");
+>>>>>>> 2c122a9b48f4f17c6238906aa0fbc9bd4dcd13bc
                 }
             }
             else
             {
+<<<<<<< HEAD
                 MessageBox.Show("Le numéro de document est obligatoire.", "Information");
+=======
+                MessageBox.Show("Le champ : numéro de document est obligatoire.", "Information");
+>>>>>>> 2c122a9b48f4f17c6238906aa0fbc9bd4dcd13bc
             }
         }
 
@@ -615,9 +668,12 @@ namespace MediaTekDocuments.view
             txbDvdPublic.Text = dvd.Public;
             txbDvdRayon.Text = dvd.Rayon;
             txbDvdTitre.Text = dvd.Titre;
+<<<<<<< HEAD
             txbIdGenreDvd.Text = dvd.IdGenre;
             txbIdPublicDvd.Text = dvd.IdPublic;
             txbIdRayonDvd.Text = dvd.IdRayon;
+=======
+>>>>>>> 2c122a9b48f4f17c6238906aa0fbc9bd4dcd13bc
             string image = dvd.Image;
             try
             {
@@ -643,6 +699,7 @@ namespace MediaTekDocuments.view
             txbDvdPublic.Text = "";
             txbDvdRayon.Text = "";
             txbDvdTitre.Text = "";
+<<<<<<< HEAD
             txbIdGenreDvd.Text = "";
             txbIdPublicDvd.Text = "";
             txbIdRayonDvd.Text = "";
@@ -654,6 +711,11 @@ namespace MediaTekDocuments.view
             VideDvdInfos();
         }
 
+=======
+            pcbDvdImage.Image = null;
+        }
+
+>>>>>>> 2c122a9b48f4f17c6238906aa0fbc9bd4dcd13bc
         /// <summary>
         /// Filtre sur le genre
         /// </summary>
@@ -825,6 +887,7 @@ namespace MediaTekDocuments.view
             }
             RemplirDvdListe(sortedList);
         }
+<<<<<<< HEAD
 
         /// <summary>
         /// Ajout d'un document de type "dvd" dans la base de données
@@ -948,6 +1011,8 @@ namespace MediaTekDocuments.view
                 }
             }
         }
+=======
+>>>>>>> 2c122a9b48f4f17c6238906aa0fbc9bd4dcd13bc
         #endregion
 
         #region Onglet Revues
